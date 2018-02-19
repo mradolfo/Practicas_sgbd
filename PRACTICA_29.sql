@@ -60,6 +60,17 @@ INSERT INTO goles VALUES (1,2,INTERVAL '0:23'HOUR TO MINUTE,'Falta directa',1);
 INSERT INTO goles VALUES (1,2,INTERVAL '0:40'HOUR TO MINUTE,'Penalti',20);
 INSERT INTO goles VALUES (1,2,INTERVAL '1:20'HOUR TO MINUTE,'Gran jugada personal',2);
 
+UPDATE equipos SET nombre= 'Real Cascorro' WHERE nombre= 'Cascoro F.C.';
+UPDATE equipos SET aforo=aforo+500;
+
+COMMIT;
+
+
+
+
+
+
+
 
 
 
